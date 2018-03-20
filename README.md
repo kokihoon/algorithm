@@ -1,2 +1,2 @@
 # algorithm
-By C Language
+By C++ Language
