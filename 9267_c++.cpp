@@ -14,15 +14,18 @@ int recur(long long a, long long b, long long S) {
             // cout << "YES" << '\n';
             return 0;
         }
+
         else if(((S-a-b)-(b*i))%(a*i) == 0) {
             check = true;
             printf("YES\n");
             // cout << "YES" << '\n';
             return 0;
         }
+
         else if(((S-a-b)-(a*i) < 0) or ((S-a-b)-(b*i) < 0)) {
             return 0;
         }
+        
     }
     a+=b;
     recur(a,b,S);
