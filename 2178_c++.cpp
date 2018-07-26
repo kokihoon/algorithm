@@ -41,7 +41,7 @@ int main() {
                     dist[nx][ny] = dist[x][y] + 1;
                     check[nx][ny] = true;
                 }
-            } 
+            }
         }
     }
     cout << dist[n-1][m-1]<<'\n';
