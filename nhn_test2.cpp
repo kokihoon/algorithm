@@ -18,9 +18,13 @@ int main() {
 
     while(W--) {
         for(int i =0; i < num; i++) {
-            if(i == 0;)
-            for(int j = 0; j < num; j++) {
-                N[]
+            if(i == 0){
+                for(int j = 0; j < num; j++) {
+                    N[]
+                }
+            }
+            else if(i == 1) {
+                for(int j = )
             }
         }
     }
